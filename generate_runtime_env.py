@@ -55,16 +55,35 @@ def generate_runtime_saml(profile="saml", inference_runtime=False, to_yaml=False
     # Python libraries
     pip = [
         "boto3",
-        "humanize",
-        "colorlog",
-        "plotly",
         "s3fs==2024.6.1",
         "fire",
-        "mlflow",
-        "plotly",
         "wandb",
-        "mteb"
+        "mteb",
+        "omegaconf",
+        "yt_dlp",
+        "pyarrow",
+        "fsspec",
+        "webdataset",
+        "webvtt-py",
+        "timeout-decorator",
+        "decord",
+        "scenedetect[opencv]==0.6",
+        "accelerate",
+        "bitsandbytes",
+        "scipy",
+        "portalocker",
+        "ffmpeg-python",
+        "einops",
+        "langdetect",
+        "torch==2.0.0",
+        "torchdata==0.6.0",
+        "torchaudio==2.0.0",
+        "transformers==4.30.0",
     ]
+
+
+
+
 
 
     # Python modules

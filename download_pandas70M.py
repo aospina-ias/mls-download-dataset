@@ -26,7 +26,7 @@ def launch_job(
     incremental_mode: str = "overwrite",
     max_shard_retry: int = 3,
     tmp_dir: str = "/tmp/download",
-    config="video2dataset/video2dataset/configs/panda70m.yaml" ,
+    config="src/video2dataset/video2dataset/configs/panda70m.yaml" ,
     **kwargs
 ):
     current_directory = os.getcwd()
